@@ -23,6 +23,7 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      'spaced-comment': ['error', 'always', { exceptions: ['-'] }],
       'import/order': [
         'error',
         {
